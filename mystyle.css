@@ -918,7 +918,6 @@ body {
 }
 
 .bg-up {
-  margin: 4% 0 0 0;
   background-image: linear-gradient(0deg, #f8f9fa 0%, #ffffff 100%);
 }
 
@@ -1192,6 +1191,11 @@ hr {
   color: #fff;
   opacity: 1;
   margin: 0 0 0 0;
+}
+
+.logo-footer {
+  width: 200px;
+  margin-bottom: 3%;
 }
 
 /*# sourceMappingURL=bootstrap.css.map #*/
