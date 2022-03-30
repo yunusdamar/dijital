@@ -749,7 +749,7 @@ body {
 }
 
 @media (min-width: 900px) {
-  .flex-md-equal > * {
+  .d-md-flex > * {
     flex: 1;
   }
 }
@@ -773,107 +773,19 @@ body {
 }
 
 .fiyat {
-  width: auto;
-  height: 600px;
-  display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 0px;
-  margin: 0 auto;
-  padding: 0px 0px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  width: 100% !important;
+  padding-bottom: 1rem !important;
+  margin-bottom: 3rem !important;
 }
 
-.fiyat .fiyatKart {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  background: rgb(177, 52, 52);
-  border-radius: 15px;
-  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
-  z-index: 10;
+.fiyatKart {
 }
-.fiyat .fiyatKart .arayuz {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.fiyat .fiyatKart .arayuz.arayuz1 {
-  box-sizing: border-box;
-  padding: 20px;
-}
+
 #teklif-link {
   text-decoration: none;
-}
-.fiyatKart .arayuz.arayuz1 h2 {
-  margin: 0;
-  padding: 0;
-}
-.fiyatKart .arayuz.arayuz .baslangic {
-  color: #fff;
-}
-.fiyatKart .arayuz.arayuz1 .gelisim {
-  color: #fff;
-}
-.fiyatKart .arayuz.arayuz1 .profesyonel {
-  color: #fff;
-}
-.fiyatKart .arayuz.arayuz2 {
-  transition: 0.5s;
-}
-.fiyatKart .arayuz.arayuz2 h2 {
-  margin: 0;
-  padding: 0;
-  font-size: 2.5rem;
-  color: #fff;
-  transition: 0.5s;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-}
-.fiyatKart:hover .arayuz.arayuz2 {
-  height: 60px;
-}
-.fiyatKart:hover .arayuz.arayuz2 h2 {
-  font-size: 2rem;
-}
-.fiyatKart:nth-child(1) .arayuz.arayuz2 {
-  background-image: linear-gradient(
-    40deg,
-    #fffc00 0%,
-    #fc00ff 45%,
-    #00fffc 100%
-  );
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-.fiyatKart:nth-child(2) .arayuz.arayuz2 {
-  background-image: linear-gradient(
-    40deg,
-    #fc00ff 0%,
-    #00fffc 45%,
-    #fffc00 100%
-  );
-  border-radius: 15px;
-}
-.fiyatKart:nth-child(3) .arayuz.arayuz2 {
-  background-image: linear-gradient(
-    40deg,
-    #00fffc 0%,
-    #fffc00 45%,
-    #fc00ff 100%
-  );
-  border-radius: 15px;
 }
 
 #uactive {
