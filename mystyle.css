@@ -773,19 +773,47 @@ body {
 }
 
 .fiyat {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
   width: 100% !important;
   padding-bottom: 1rem !important;
-  margin-bottom: 3rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
 }
 
 .fiyatKart {
-  text-align: center !important;
-  padding-top: 1rem !important;
-  padding-right: 1rem !important;
+  padding-top: 2rem !important;
   padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 1rem !important;
+  text-align: center !important;
+  margin: 0rem 0.5rem 0.5rem 0.5rem !important;
+}
+
+.fiyatKart:hover {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.paketAdı {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #173c52;
+}
+
+.paketFiyat {
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  border-top: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.paketAciklama {
+  margin-top: 1rem !important;
+  margin-bottom: 1.5rem !important;
+  padding-left: 0;
+  list-style: none;
 }
 
 #teklif-link {
