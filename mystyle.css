@@ -816,6 +816,12 @@ body {
   list-style: none;
 }
 
+.paketKdv {
+  font-size: 2rem;
+  color: #6c757d !important;
+  font-weight: 300;
+}
+
 #teklif-link {
   text-decoration: none;
 }
