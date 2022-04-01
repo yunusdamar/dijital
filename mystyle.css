@@ -671,7 +671,7 @@ body {
 
 .fiyat {
   width: 100% !important;
-  padding-bottom: 1rem !important;
+  padding-bottom: 0rem !important;
   padding-left: 0.5rem !important;
   padding-right: 0.5rem !important;
 }
@@ -682,7 +682,7 @@ body {
   padding-right: 1rem !important;
   padding-bottom: 1rem !important;
   text-align: center !important;
-  margin: 0rem 0.5rem 0.5rem 0.5rem !important;
+  margin: 0rem 0.5rem 0rem 0.5rem !important;
 }
 
 .fiyatKart:hover {
@@ -1108,4 +1108,35 @@ hr {
 
 .fa-check, .fa-check-double {
   color: green;
+}
+
+.paketAciklamaContainer{
+  position: relative !important;
+  padding-top: 1rem !important;
+  text-align: center !important;
+}
+
+.paketAciklamaBaslik{
+  
+}
+
+.paragraf{
+  padding: 1.5rem;
+  width: 60%;
+  margin: auto;
+}
+
+.paketAciklamaResim{
+  width: 40%;
+
+  margin: auto;
+}
+
+.paketAciklamaParagraf{
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  flex: 0 1 auto;
+  margin: 0.5rem 0rem;
+  padding-bottom: 0.4rem;
 }
