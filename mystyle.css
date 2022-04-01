@@ -690,7 +690,7 @@ body {
 }
 
 .paketAdı {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.5rem;
   color: rgba(var(--bs-dark-rgb)) !important;
 }
@@ -717,6 +717,14 @@ body {
   font-size: 2rem;
   color: #6c757d !important;
   font-weight: 300;
+}
+
+.araBaslik {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center !important;
+  margin: 3rem !important;
 }
 
 #teklif-link {
@@ -1135,7 +1143,7 @@ hr {
 }
 
 .paketAciklamaParagraf{
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   text-align: center;
   flex: 0 1 auto;
