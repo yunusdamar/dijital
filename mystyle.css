@@ -1070,7 +1070,7 @@ hr {
   border-bottom: solid 0.5px #ddd;
   margin: 0.5rem 0rem;
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  color: #000;
   padding-left: 0.7rem;
   padding-bottom: 1rem;
 }
@@ -1093,7 +1093,7 @@ hr {
   border-bottom: solid 2px #000;
   margin: 0.5rem 0rem;
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  color: #000;
   padding-left: 0.5rem;
   padding-bottom: 0.4rem;
 }
@@ -1111,11 +1111,11 @@ hr {
 }
 
 .fa-xmark{
-  color: red;
+  color: #aaa;
 }
 
 .fa-check, .fa-check-double {
-  color: green;
+  color: #000;
 }
 
 .paketAciklamaContainer{
