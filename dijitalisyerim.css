@@ -988,7 +988,7 @@ section {
   display: flex;
   flex: 0 1 auto;
   align-items: flex-end;
-  font-size: 3.5rem;
+  font-size: 3rem;
   --bs-text-opacity: 1;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
   font-weight: 600 !important;
@@ -1002,7 +1002,18 @@ section {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.blogYazi{
+  display: flex;
+  flex: 0 1 auto;
+  flex-basis: 80%;
+  flex-direction: column;
+}
+
+
+
 .blogh2{
+  display: flex;
+  flex: 0 1 auto;
   font-size: 2.5rem;
   font-weight: 600;
   color: rgba(var(--bs-dark-rgb));
@@ -1011,6 +1022,8 @@ section {
 }
 
 .blogh3{
+  display: flex;
+  flex: 0 1 auto;
   font-size: 2rem;
   font-weight: 600;
   color: rgba(var(--bs-gray-dark));
@@ -1042,6 +1055,38 @@ section {
   font-size: 3rem;
   font-weight: 600;
   color: #000;
+}
+
+.blogNav{
+  display: flex;
+  flex: 0 1 25%;
+  padding: 3rem 0rem 0rem 1.5rem;
+  flex-direction: column;
+}
+
+.blogNavMenu{
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  font-size: 0.5rem;
+  line-height: 2.5rem;
+  justify-content: start;
+}
+
+.blogNavitem{
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: start;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.blogNav a{
+  text-decoration: none;
+}
+
+.blogNav a:hover{
+  text-decoration: underline;
 }
 
 .post {
@@ -1282,6 +1327,10 @@ margin: auto;
 .sliderAltSloganMain{
   font-weight: 500;
   font-size: 3rem;
+}
+
+.blogNav a{
+  color: #000;
 }
 
 
