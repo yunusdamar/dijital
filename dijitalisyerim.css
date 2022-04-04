@@ -1004,9 +1004,10 @@ section {
 
 .blogYazi{
   display: flex;
-  flex: 0 1 auto;
-  flex-basis: 80%;
+  flex: 0 1 80%;
   flex-direction: column;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 0rem 1rem 0rem 1rem;
 }
 
 
@@ -1014,32 +1015,32 @@ section {
 .blogh2{
   display: flex;
   flex: 0 1 auto;
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 5rem;
+  font-weight: 900;
   color: rgba(var(--bs-dark-rgb));
-  padding: 2rem 1rem 0rem 2rem;
+  padding: 2rem 1rem 1rem 2rem;
   line-height: 2rem !important;
 }
 
 .blogh3{
   display: flex;
   flex: 0 1 auto;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 900;
   color: rgba(var(--bs-gray-dark));
-  padding: 0rem 1rem 0rem 3rem;
+  padding: 1rem 1rem 0rem 3rem;
   line-height: 2rem !important;
 }
 
 .blog-p{
   display: flex;
   flex: 0 1 auto;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb)) !important;
   font-weight: 400 !important;
-  line-height: 2rem !important;
-  padding: 0.2rem 1rem 0.2rem 1rem;
+  line-height: 2.5rem !important;
+  padding: 0.3rem 1rem 0.3rem 1rem;
 }
 
 .blogSlogan{
@@ -1060,7 +1061,8 @@ section {
 .blogNav{
   display: flex;
   flex: 0 1 25%;
-  padding: 3rem 0rem 0rem 1.5rem;
+  padding: 3rem 1rem 0rem 1.5rem;
+  margin: 0rem 1rem 0rem 0rem;
   flex-direction: column;
 }
 
@@ -1068,25 +1070,34 @@ section {
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
-  font-size: 0.5rem;
   line-height: 2.5rem;
   justify-content: start;
+}
+
+.blogNavBreadcrumb{
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  line-height: 2.5rem;
+  justify-content: start;
+  list-style-type: disc;
+  padding-left: 2rem;
 }
 
 .blogNavitem{
   display: flex;
   flex: 0 1 auto;
   justify-content: start;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 500;
-}
-
-.blogNav a{
-  text-decoration: none;
 }
 
 .blogNav a:hover{
   text-decoration: underline;
+}
+
+.blogNav a:hover{
+  text-decoration: none;
 }
 
 .post {
@@ -1177,6 +1188,12 @@ hr {
   color: #fff;
   opacity: 1;
   margin: 0 0 0 0;
+}
+
+abbr {
+  display: flex;
+  flex: 0 1 auto;
+  height: 30px;
 }
 
 .logo-footer {
