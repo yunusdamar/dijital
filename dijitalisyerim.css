@@ -998,20 +998,33 @@ section {
   text-decoration: underline;
 }
 
+.blog{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.blogh2{
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgba(var(--bs-dark-rgb));
+  padding: 2rem 1rem 1rem 2rem;
+}
+
+.blogh3{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgba(var(--bs-gray-dark));
+  padding: 0rem 1rem 0rem 3rem;
+}
+
 .blog-p{
   display: flex;
   flex: 0 1 auto;
-  font-size: 1.2rem;
+  font-size: 2rem;
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb)) !important;
   font-weight: 400 !important;
-  line-height: 1.5rem !important;
-
-
-}
-
-.blog{
-  font-family: 'Times New Roman', Times, serif;
+  line-height: 3rem !important;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .blogSlogan{
@@ -1059,7 +1072,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 2%;
-  background-color: #bbb;
+  background-color: rgb(238, 238, 238);
   border-top-left-radius: 1rem;
   border-top-right-radius: 0rem;
   border-bottom-left-radius: 1rem;
@@ -1072,7 +1085,7 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 2% 2% 2% 4%;
-  background-color: #eee;
+  background-color: rgb(248, 248, 248);
   border-top-left-radius: 0rem;
   border-top-right-radius: 1rem;
   border-bottom-left-radius: 0rem;
@@ -1251,10 +1264,12 @@ hr {
 }
 
 .dijitalisyerim{
+  font-weight: 700;
   color: rgba(var(--bs-dark-rgb));
 }
 
 .sliderSlogan{
+font-weight: 400;
 font-size: 4rem;
 z-index: 10;
 flex: 0 1 auto;
@@ -1263,6 +1278,7 @@ margin: auto;
 }
 
 .sliderAltSloganMain{
+  font-weight: 500;
   font-size: 3rem;
 }
 
@@ -1297,11 +1313,11 @@ margin: auto;
   align-items: center;
   justify-content: center;
   flex: 0 1 30%;
-  transform: rotate(-45deg) scale(0.8);
-  -webkit-transform: rotate(-45deg) scale(0.8);
-  -moz-transform: rotate(-45deg) scale(0.8);
-  -ms-transform: rotate(-45deg) scale(0.8);
-  -o-transform: rotate(-45deg) scale(0.8);
+  transform: rotate(-45deg) scale(0.85);
+  -webkit-transform: rotate(-45deg) scale(0.85);
+  -moz-transform: rotate(-45deg) scale(0.85);
+  -ms-transform: rotate(-45deg) scale(0.85);
+  -o-transform: rotate(-45deg) scale(0.85);
 }
 
 .sliderRight{
