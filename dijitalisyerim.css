@@ -992,7 +992,7 @@ section {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
   font-weight: 600 !important;
-  line-height: 3rem !important;
+  line-height: 3.5rem !important;
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
   text-decoration: underline;
@@ -1003,28 +1003,30 @@ section {
 }
 
 .blogh2{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: rgba(var(--bs-dark-rgb));
-  padding: 2rem 1rem 1rem 2rem;
+  padding: 2rem 1rem 0rem 2rem;
+  line-height: 2rem !important;
 }
 
 .blogh3{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   color: rgba(var(--bs-gray-dark));
   padding: 0rem 1rem 0rem 3rem;
+  line-height: 2rem !important;
 }
 
 .blog-p{
   display: flex;
   flex: 0 1 auto;
-  font-size: 2rem;
+  font-size: 1.2rem;
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb)) !important;
   font-weight: 400 !important;
-  line-height: 3rem !important;
-  padding: 1rem 2rem 1rem 2rem;
+  line-height: 2rem !important;
+  padding: 0.2rem 1rem 0.2rem 1rem;
 }
 
 .blogSlogan{
@@ -1071,7 +1073,7 @@ section {
   flex: 0 1 50%;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding: 0%;
   background-color: rgb(238, 238, 238);
   border-top-left-radius: 1rem;
   border-top-right-radius: 0rem;
@@ -1084,7 +1086,7 @@ section {
   flex: 0 1 50%;
   flex-direction: column;
   justify-content: center;
-  padding: 2% 2% 2% 4%;
+  padding: 1% 2% 2% 4%;
   background-color: rgb(248, 248, 248);
   border-top-left-radius: 0rem;
   border-top-right-radius: 1rem;
@@ -1228,7 +1230,7 @@ hr {
 }
 
 .paketAciklamaParagraf{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   text-align: center;
   flex: 0 1 auto;
