@@ -1558,7 +1558,6 @@ margin: auto;
   grid-area: musteri;
 }
 
-
 .gridPaketler{
   display: grid;
   grid-template: auto auto / 1fr 1fr 1fr;
@@ -1570,16 +1569,32 @@ margin: auto;
   background: linear-gradient(#173e52, #173e52, #173e52, #FFFFFF);
 }
 
-.relative{
-position: absolute;
-z-index: 1;
-width: 100%;
-padding: 0% 25%;
+.donusumCard{
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding: 0% 25%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.othersCard{
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 30%;
+  z-index: 1;
+  width: 100%;
+  padding: 0% 25%;
+  height: 500px;
+  overflow: hidden;
 }
 
 .alignEnd{
   display: flex;
-  flex: 0 1 auto;
+  flex: 0 1 70%;
 }
 
 .gridPaketItem{
@@ -1596,7 +1611,7 @@ padding: 0% 25%;
 .donusum{
   grid-area: donusum;
   color: rgba(var(--bs-dark-rgb));
-  height: 600px;
+
 }
 
 .e-ticaret{
