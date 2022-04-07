@@ -1493,6 +1493,7 @@ margin: auto;
   font-weight: 300;
   justify-content: center;
 }
+
 .MainGridAltBaslik{
   display: flex;
   flex: 0 1 auto;
@@ -1507,12 +1508,42 @@ margin: auto;
   font-weight: 400;
   justify-content: center;
 }
+
 .MainGridLink{
   display: flex;
   flex: 0 1 auto;
   font-size: 1.2rem;
   font-weight: 500;
   justify-content: center;
+}
+.paketGridBaslik{
+  display: flex;
+  flex: 0 1 33%;
+  font-size: 2.5rem;
+  font-weight: 500;
+  justify-content: center;
+  color: rgba(var(--bs-dark-rgb));
+}
+.paketGridAciklama{
+  display: flex;
+  flex: 0 1 50%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 0.5rem 0rem;
+}
+.paketGridLink{
+  display: flex;
+  flex: 0 1 17%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 1rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
 }
 
 .mainGridItemMid{
@@ -1564,9 +1595,8 @@ margin: auto;
   grid-template-areas: 
   "donusum donusum donusum"
   "e-ticaret sosyal-medya seo";
-  margin: 0rem 0rem 1rem 0rem;
   grid-gap: 1rem;
-  background: linear-gradient(#173e52, #173e52, #173e52, #FFFFFF);
+  background: linear-gradient(#173e52, #173e52, #FFFFFF);
 }
 
 .donusumCard{
@@ -1584,17 +1614,18 @@ margin: auto;
 .othersCard{
   display: flex;
   flex-direction: column;
-  flex: 0 1 30%;
+  flex: 0 1 100%;
   z-index: 1;
   width: 100%;
-  padding: 0% 25%;
-  height: 500px;
+  padding: 3rem 1rem 1rem 1rem;
   overflow: hidden;
 }
 
 .alignEnd{
   display: flex;
   flex: 0 1 70%;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .gridPaketItem{
@@ -1603,15 +1634,14 @@ margin: auto;
   flex-direction: column;
   text-align: center;
   background-color: rgba(var(--bs-light-rgb));
-  padding: 2rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   margin: 0rem 0rem 0rem 0rem;
-  height: auto;
+  justify-content: space-between;
 }
 
 .donusum{
   grid-area: donusum;
   color: rgba(var(--bs-dark-rgb));
-
 }
 
 .e-ticaret{
