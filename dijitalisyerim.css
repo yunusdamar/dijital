@@ -596,42 +596,6 @@ body {
   text-decoration: none;
 }
 
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: rgb(196, 142, 188);
-  border-radius: 21px;
-  transform: rotate(30deg);
-  z-index: 0;
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-  z-index: 0;
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #1c3046;
-  z-index: 0;
-}
 
 /*
  * Extra utilities
@@ -1457,7 +1421,7 @@ margin: auto;
 
 .mainGrid{
   display: grid;
-  grid-template: 1fr auto 1fr / 1fr 1fr;
+  grid-template: 1fr auto 1fr / auto auto;
   grid-template-areas: 
   "magaza vitrin"
   "gridSlogan gridSlogan"
@@ -1465,27 +1429,37 @@ margin: auto;
   grid-gap: 1rem;
   margin: 1rem;
 }
-
 .mainGridItem{
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
   text-align: center;
   background-color: rgba(var(--bs-light-rgb));
-  padding: 1rem 1rem 0rem 1rem;
-
+  padding: 1rem 0rem 0rem 0rem;
+  justify-content: space-between;
 }
-
 .mainGridItemTop{
   display: flex;
-  flex: 0 1 30%;
+  flex: 0 1 auto;
+  flex-basis: auto;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   justify-content: flex-start;
-  padding: 20px;
-
+  padding: 1rem;
 }
+.mainGridItemBottom{
+  display: flex;
+  flex: 0 1 auto;
+  align-items: flex-end;
+  padding: 0rem 0rem;
+}
+.mainGridItemMid{
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  justify-content: center;
+}
+
 .MainGridBaslik{
   display: flex;
   flex: 0 1 auto;
@@ -1550,12 +1524,7 @@ margin: auto;
   margin-top: 0.5rem;
 }
 
-.mainGridItemMid{
-  display: flex;
-  flex: 0 1 auto;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .MainGridMidAciklama{
   display: flex;
@@ -1566,12 +1535,7 @@ margin: auto;
   justify-content: center;
 }
 
-.mainGridItemBottom{
-  display: flex;
-  flex: 0 1 80%;
-  align-items: flex-end;
 
-}
 
 .magaza{
   grid-area: magaza;
@@ -1703,13 +1667,18 @@ margin: auto;
 
 }
 
-
-
 @media (max-width: 1400px) {
   .alignEnd{
     padding-top: 15rem;
 }
 }
+@media (min-width: 1400px) {
+  .alignEnd{
+    padding-top: 6.5rem;
+}
+}
+
+
 
 @media (max-width: 992px) {
   .slider {
@@ -1816,3 +1785,26 @@ margin: auto;
 }
 
 }
+
+
+.site-header22 {
+  background-color: rgba(17, 42, 56, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(30px);
+  backdrop-filter: saturate(180%) blur(30px);
+  transition: all 500ms ease-in-out;
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+}
+
+.site-header22 a {
+  color: #e0e0e0;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+}
+.site-header22 a:hover {
+  color: #fff;
+
+}
+
