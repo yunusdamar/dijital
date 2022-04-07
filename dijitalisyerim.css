@@ -1599,9 +1599,21 @@ margin: auto;
   grid-template-areas: 
   "donusum donusum donusum"
   "e-ticaret sosyal-medya seo";
-  grid-gap: 1rem;
-  background: linear-gradient(#173e52, #173e52, #173e52, #DDD, #FFF);
+  grid-gap: 0rem 1rem;
+  background: linear-gradient(#173e52, #173e52, #173e52, #FFF);
 }
+
+.gridDonusumPaketItem{
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(var(--bs-light-rgb));
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+  justify-content: space-between;
+}
+
 .donusumCard{
   display: flex;
   flex-direction: column;
@@ -1609,7 +1621,7 @@ margin: auto;
   position: absolute;
   z-index: 1;
   width: 100%;
-align-items: center;
+  align-items: center;
   height: 500px;
   overflow: hidden;
 }
@@ -1626,7 +1638,7 @@ align-items: center;
 
 .alignEnd{
   display: flex;
-  flex: 0 1 70%;
+  flex: 0 1 auto;
   align-items: flex-end;
   justify-content: center;
 }
@@ -1659,6 +1671,7 @@ align-items: center;
   grid-area: seo;
 }
 
+
 @media (max-width: 1600px) {
   .slider {
     height: 400px;
@@ -1671,6 +1684,7 @@ align-items: center;
   .sliderAltSloganMain{
     font-size: 3rem;
   }
+
 }
 
 
@@ -1686,6 +1700,15 @@ align-items: center;
   .sliderAltSloganMain{
     font-size: 2rem;
   }
+
+}
+
+
+
+@media (max-width: 1400px) {
+  .alignEnd{
+    padding-top: 15rem;
+}
 }
 
 @media (max-width: 992px) {
