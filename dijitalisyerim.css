@@ -1329,8 +1329,8 @@ hr {
 }
 
 .sliderSlogan{
-font-weight: 400;
-font-size: 4rem;
+font-weight: 300;
+font-size: 3rem;
 z-index: 10;
 flex: 0 1 auto;
 justify-content: center;
@@ -1338,8 +1338,8 @@ margin: auto;
 }
 
 .sliderAltSloganMain{
-  font-weight: 500;
-  font-size: 3rem;
+  font-weight: 300;
+  font-size: 3.5rem;
 }
 
 .blogNav a{
@@ -1514,7 +1514,7 @@ margin: auto;
 }
 .paketGridLink{
   display: flex;
-  flex: 0 1 17%;
+  flex: 0 1 20px;
   font-size: 1.2rem;
   font-weight: 400;
   justify-content: center;
@@ -1559,10 +1559,10 @@ margin: auto;
 
 .gridPaketler{
   display: grid;
-  grid-template: auto auto / 1fr 1fr 1fr;
+  grid-template: auto auto / 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-  "donusum donusum donusum"
-  "e-ticaret sosyal-medya seo";
+  "donusum donusum donusum donusum"
+  "e-ticaret sosyal-medya seo ads";
   grid-gap: 0rem 1rem;
   background: linear-gradient(#173e52, #173e52, #173e52, #FFF);
 }
@@ -1593,6 +1593,7 @@ margin: auto;
 .othersCard{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex: 0 1 100%;
   z-index: 1;
   width: 100%;
@@ -1623,6 +1624,10 @@ margin: auto;
   color: rgba(var(--bs-dark-rgb));
 }
 
+.ads{
+  grid-area: ads;
+}
+
 .e-ticaret{
   grid-area: e-ticaret;
 }
@@ -1643,7 +1648,7 @@ margin: auto;
 
   .sliderSlogan {
     font-size: 3rem;
-  }
+   }
 
   .sliderAltSloganMain{
     font-size: 3rem;
@@ -1708,7 +1713,7 @@ margin: auto;
     grid-template: auto auto auto auto auto / 1fr;
     grid-template-areas: 
     "donusum"
-    "e-ticaret" "sosyal-medya" "seo";
+    "e-ticaret" "sosyal-medya" "seo" "ads";
     margin: 0rem 0rem 1rem 0rem;
     grid-gap: 1rem;
     background: linear-gradient(#173e52, #173e52, #173e52, #FFFFFF);
@@ -1796,6 +1801,7 @@ margin: auto;
 -moz-transition: all 500ms ease-in-out;
 -ms-transition: all 500ms ease-in-out;
 -o-transition: all 500ms ease-in-out;
+font-size: 0.7rem;
 }
 
 .site-header22 a {
