@@ -1435,13 +1435,12 @@ margin: auto;
   flex-direction: column;
   text-align: center;
   background-color: rgba(var(--bs-light-rgb));
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   justify-content: space-between;
 }
 .mainGridItemTop{
   display: flex;
   flex: 0 1 auto;
-  flex-basis: auto;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -1451,7 +1450,7 @@ margin: auto;
   display: flex;
   flex: 0 1 auto;
   align-items: flex-end;
-  padding: 0rem 0rem;
+  padding: 0rem 6% 1rem 6%;
 }
 .mainGridItemMid{
   display: flex;
@@ -1462,7 +1461,7 @@ margin: auto;
 
 .MainGridBaslik{
   display: flex;
-  flex: 0 1 auto;
+  flex: 0 1 20%;
   font-size: 3.5rem;
   font-weight: 300;
   justify-content: center;
@@ -1470,14 +1469,15 @@ margin: auto;
 
 .MainGridAltBaslik{
   display: flex;
-  flex: 0 1 auto;
+  flex: 0 1 15%;
   font-size: 1.4rem;
   font-weight: 600;
   justify-content: center;
 }
 .MainGridAciklama{
   display: flex;
-  flex: 0 1 auto;
+  flex: 0 1 65%;
+  flex-basis: auto 65%;
   font-size: 1.2rem;
   font-weight: 400;
   justify-content: center;
@@ -1531,8 +1531,8 @@ margin: auto;
   flex: 0 1 auto;
   font-size: 2.5rem;
   font-weight: 300;
-  align-items: center;
-  justify-content: center;
+  padding: 0.7rem;
+  margin: auto;
 }
 
 
@@ -1564,7 +1564,7 @@ margin: auto;
   "donusum donusum donusum donusum"
   "e-ticaret sosyal-medya seo ads";
   grid-gap: 0rem 1rem;
-  background: linear-gradient(#173e52, #173e52, #173e52, #FFF);
+  background: linear-gradient(#173e52 75%, #FFF);
 }
 
 .gridDonusumPaketItem{
