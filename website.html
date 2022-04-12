@@ -43,77 +43,61 @@
 
 <body>
     <!-- HEADER -->
-    <header class="site-header sticky-top py-1 navbar-dark small">
-        <div class="container-header">
-            <nav class="navbar navbar-expand-lg  p-0">
-                <a class="navbar-brand d-flex justify-content-start" title="Ana Sayfa" href="index.html">
-                    <img alt="Dijital İşyerim Logo" src="img/dijitalisyerim-light.svg" width="150">
+    <header class="site-headerMin sticky-top py-1">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 container-lg" aria-label="Dijital İşyerim navbar">
+            <div class="container-lg p-0 justify-content-between">
+                <a href="index.html" class="mx-4" title="Dijital İşyerim Ana Sayfa">
+                    <img src="images/dijitalisyerim-light-min.svg" width="15px" alt="Dijital İşyerim Logo Light">
                 </a>
-                <button class="navbar-toggler toggle" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navMin" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#dijitalnavbar" aria-controls="dijitalnavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ">
-                        <li class="nav-item ">
-                            <a class="nav-link mx-2" title="Ana Sayfa" aria-current="page" href="index.html">Ana
-                                Sayfa</a>
+                <div class="collapse navbar-collapse " id="dijitalnavbar">
+                    <ul class="navbar-nav container-lg justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link " title="Dijital İşyerim Ana Sayfa" href="index.html">Ana Sayfa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" title="Hakkımızda" href="hakkimizda.html">Hakkımızda</a>
+                            <a class="nav-link" title="Hakkımızda" href="hakkimizda.html">Hakkımızda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" title="Referanslar" href="referanslar.html">Referanslarımız</a>
+                            <a class="nav-link" title="Dijital Dönüşüm Paketleri" href="dijital-donusum.html">Dijital
+                                Dönüşüm</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" title="Dijital İşyerim Akademi" href="blog.html">Blog</a>
+                            <a class="nav-link active" title="Website Paketleri" href="website.html">Website</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-0 mx-0 ms-2" title="Dijital İşyerim İletişim"
-                                href="iletisim.html">İletişim</a>
+                            <a class="nav-link" title="E-Ticaret Çözümleri" href="e-ticaret.html">E-Ticaret</a>
                         </li>
-                        <ul class="navbar-nav d-md-none">
-                            <li class="nav-item ">
-                                <a class="nav-link mx-2" title="Dijital Dönüşüm Paketleri"
-                                    href="dijital-donusum.html">Dijital Dönüşüm</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link mx-2" title="Website Paketleri" href="website.html">Website</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link mx-2" title="E-Ticaret Çözümleri" href="e-ticaret.html">E-Ticaret</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link mx-2" title="Sosyal Medya Yönetimi" href="sosyal-medya.html">Sosyal
-                                    Medya</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link mx-2" title="Seo Optimizasyonu" href="seo.html">Seo</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link mx-2" title="Google Ads Stratejileri" href="ads.html">Google Ads</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link mx-2" title="Stüdyo Çekimleri" href="studyo.html">Stüdyo</a>
-                            </li>
-                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Sosyal Medya Yönetimi" href="sosyal-medya.html">Sosyal Medya</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Seo Optimizasyonu" href="seo.html">Seo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Google Ads Stratejileri" href="ads.html">Google Ads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Stüdyo Çekimleri" href="studyo.html">Stüdyo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Dijital İş Ortaklarımız" href="referanslar.html">İş
+                                Ortaklarımız</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Dijital İşyerim Akademi" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Dijital İşyerim İletişim" href="iletisim.html">İletişim</a>
+                        </li>
                     </ul>
                 </div>
-            </nav>
-            <hr>
-            <nav class="sublink">
-                <div class="md d-flex flex-md-row flex-column justify-content-between my-2">
-                    <a class="" id="" title="Dijital Dönüşüm Paketleri" href="dijital-donusum.html">Dijital Dönüşüm</a>
-                    <a class="" id="uactive" title="Website Paketleri" href="website.html">Website</a>
-                    <a class="" id="" title="E-Ticaret Çözümleri" href="e-ticaret.html">E-Ticaret</a>
-                    <a class="" id="" title="Sosyal Medya Yönetimi" href="sosyal-medya.html">Sosyal Medya</a>
-                    <a class="" id="" title="Seo Optimizasyonu" href="seo.html">Seo</a>
-                    <a class="" id="" title="Google Ads Stratejileri" href="ads.html">Google Ads</a>
-                    <a class="" id="" title="Stüdyo Çekimleri" href="studyo.html">Stüdyo</a>
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
 
@@ -144,11 +128,28 @@
                             + KDV</small>
                     </h3>
                     <ul class="paketAciklama">
-                        <li class="fs-4">Tüm sunucu ve hosting siparişlerinizde, web sitelerinizi ücretsiz taşıyoruz.
+                        <li>
+                            <h4 class="underline">Paket İçeriği</h4>
+                        </li>
+                        <li>
+                            <h6>Standart Tema <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Alan Adı <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Hosting <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>SSL Sertifikası <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Mobil Uyumluluk <i class="fa-solid fa-check"></i></h6>
                         </li>
                     </ul>
-                    <a class="btn btn-lg btn-outline-secondary"
-                        href="https://hizmet.dijitalisyerim.com.tr/siparis/special/142">Satın alın</a>
+                    <!--
+                    <a class="btn btn-lg btn-outline-secondary" title="Satın Al"
+                        href="#">Satın alın</a>-->
                 </div>
             </div>
 
@@ -159,11 +160,28 @@
                             + KDV</small>
                     </h3>
                     <ul class="paketAciklama">
-                        <li class="fs-4">Alanında tecrübeli ve uzman ekibimiz sayesinde sunucularınız emin ellerdedir.
+                        <li>
+                            <h4 class="underline">Paket İçeriği</h4>
+                        </li>
+                        <li>
+                            <h6>Kişiselleştirilmiş Tema <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Alan Adı <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Hosting <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>SSL Sertifikası <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Mobil Uyumluluk <i class="fa-solid fa-check"></i></h6>
                         </li>
                     </ul>
-                    <a class="btn btn-lg btn-outline-secondary"
-                        href="https://hizmet.dijitalisyerim.com.tr/siparis/special/143">Satın alın</a>
+                    <!--
+                    <a class="btn btn-lg btn-outline-secondary" title="Satın Al"
+                        href="#">Satın alın</a>-->
                 </div>
             </div>
             <div class="fiyatKart bg-light pt-md-5 px-md-5">
@@ -173,12 +191,28 @@
                             + KDV</small>
                     </h3>
                     <ul class="paketAciklama">
-                        <li class="fs-4">Sunucularımız teknolojik donanım ve yazılımlarla sürekli olarak güncel
-                            tutulmaktadır.
+                        <li>
+                            <h4 class="underline">Paket İçeriği</h4>
+                        </li>
+                        <li>
+                            <h6>Konsept Tasarım <i class="fa-solid fa-check-double"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Alan Adı <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Hosting <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>SSL Sertifikası <i class="fa-solid fa-check"></i></h6>
+                        </li>
+                        <li>
+                            <h6>Mobil Uyumluluk <i class="fa-solid fa-check"></i></h6>
                         </li>
                     </ul>
-                    <a class="btn btn-lg btn-outline-secondary"
-                        href="https://hizmet.dijitalisyerim.com.tr/siparis/special/144">Satın alın</a>
+                    <!--
+                    <a class="btn btn-lg btn-outline-secondary" title="Satın Al"
+                        href="#">Satın alın</a>-->
                 </div>
             </div>
         </div>
@@ -233,16 +267,100 @@
                 </div>
                 <div class="d-flex">
                     <div class="baslik">
-                        Tema
+                        E-mail Adresi
                     </div>
                     <div class="item">
-                        Standart Şablon
+                        <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="item">
-                        Kişiselleştirilmiş Şablon
+                        <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="item">
-                        Özel Tasarım
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="baslik">
+                        Trafik (Bandwith)
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="baslik">
+                        SSL Sertifikası
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="baslik">
+                        Online Yedekleme
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="baslik">
+                        Offline Yedekleme
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="baslik">
+                        Mobil Uyumluluk
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="baslik">
+                        Dil Seçeneği
+                    </div>
+                    <div class="item">
+                        1
+                    </div>
+                    <div class="item">
+                        1
+                    </div>
+                    <div class="item">
+                        2
                     </div>
                 </div>
                 <div class="d-flex">
@@ -261,16 +379,30 @@
                 </div>
                 <div class="d-flex">
                     <div class="baslik">
-                        başlık
+                        Revizyon Desteği
                     </div>
                     <div class="item">
-                        1
+                        7 Gün
                     </div>
                     <div class="item">
-                        2
+                        15 Gün
                     </div>
                     <div class="item">
-                        3
+                        30 Gün
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="baslik">
+                        Tema
+                    </div>
+                    <div class="item">
+                        Standart Tema
+                    </div>
+                    <div class="item">
+                        Kişiselleştirilmiş Tema
+                    </div>
+                    <div class="item">
+                        Konsept Tasarım
                     </div>
                 </div>
             </div>
