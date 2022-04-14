@@ -390,43 +390,45 @@
         <section>
             <div class="container-xl">
                 <div class="row flex-lg-row-reverse align-items-center justify-content-between g-5 py-5 ">
-                    <div class="col-xl-5 bg-light p-4 py-5">
-                        <form class="">
-                            <h4>Sizi arayalım</h4>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Adınız</label>
-                                <input type="text" class="form-control" id="exampleInputName1"
-                                    aria-describedby="nameHelp" placeholder="Adınız">
+                    <div class="col-xl-5 bg-light px-4 py-5">
+                        <form class="d-flex">
+                            <div class="column">
+                                <h4 class="my-3 display-3 text-dark">Sizi arayalım</h4>
+                                <div class="form-group my-2">
+                                    <label for="exampleInputEmail1">İletişim Bilgileriniz</label>
+                                    <input type="text" class="form-control" id="exampleInputName1"
+                                        aria-describedby="nameHelp" placeholder="Adınız Soyadınız / Firma Adı">
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="exampleInputEmail1">İletişim Numaranız</label>
+                                    <input type="phone" class="form-control" id="exampleInputSoyad1"
+                                        aria-describedby="soyadHelp" placeholder="Cep Telefonu">
+                                </div>
+                                <div class="form-group  my-2">
+                                    <label for="exampleInputEmail1">Email adresiniz</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="E-mail">
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="paketsecimi">Bilgi almak istediğiniz Seo Paketi</label>
+                                    <select class="form-control" id="paketsecimi">
+                                        <option>Seo Başlangıç Paketi</option>
+                                        <option>Seo Gelişim Paketi</option>
+                                        <option>Seo Profesyonel Paketi</option>
+                                    </select>
+                                </div>
+                                <small id="emailHelp" class="form-text text-muted">İletişim bilgileriniz hiç bir koşulda
+                                    başka kurum ve kuruluşlarla paylaşılmayacaktır.</small>
+                                <div class="form-check my-2">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Onaylıyorum</label>
+                                </div>
+                                <button type="submit" class="btn my-2 btn-outline-secondary">Bilgilerimi Gönder</button>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Soyadınız</label>
-                                <input type="text" class="form-control" id="exampleInputSoyad1"
-                                    aria-describedby="soyadHelp" placeholder="Soyadınız">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email adresiniz</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="E-mail">
-                                <small id="emailHelp" class="form-text text-muted">Mail adresiniz hiç bir koşulda başka
-                                    kurum ve kuruluşlarla paylaşılmayacaktır.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect1">Paket Tercihiniz</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>Seo Başlangıç</option>
-                                    <option>Seo Gelişim</option>
-                                    <option>Seo Profesyonel</option>
-                                </select>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Onaylıyorum</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Teklif İste</button>
                         </form>
                     </div>
                     <div class="col-xl-6">
-                        <h1 class="display-5 lh-1 mb-3">Search Engine Optimization</h1>
+                        <h1 class="display-5 lh-1 mb-3">Arama Motoru Optimizasyonu</h1>
                         <p class="lead">
                             Sisteminin ardında büyük bir algoritma merkezi
                             çalışmaktadır. Algoritmalar sayesinde arama motorları sürekli güncellenerek, arama yapan
