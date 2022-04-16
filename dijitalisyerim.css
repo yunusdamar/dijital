@@ -1632,6 +1632,9 @@ margin: auto;
 .paketDonusumBaslik{
   display: flex;
   flex: 0 1 auto;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 .paketDonusumAciklama{
@@ -1640,7 +1643,7 @@ margin: auto;
   font-size: 1.2rem;
   font-weight: 400;
   justify-content: center;
-  width: 600px;
+  width: 550px;
   color: #000;
 
 }
@@ -1723,7 +1726,7 @@ margin: auto;
   flex: 0 1 auto;
   flex-direction: column;
   text-align: center;
-  background-image: linear-gradient(#FFF 85%, #173e52 85%);
+  background-image: linear-gradient(#FFF 73%, #173e52 73%);
   padding: 0rem 0rem 0rem 0rem;
   margin: 0rem 0rem 0rem 0rem;
   justify-content: center;
@@ -1761,20 +1764,19 @@ margin: auto;
   justify-content: space-between;
   padding: 0;
   margin: 0;
+  height: 500px;
 }
 
 .donusumSol{
   display: flex;
-  flex: 0 1 38%;
+  flex: 0 1 35%;
 
 }
 
 .donusumSag{
   display: flex;
-  flex: 0 1 auto;
-  flex-basis:  38%;
-
-
+  flex: 0 1 40%;
+ 
 }
 
 .gridPaketItem{
