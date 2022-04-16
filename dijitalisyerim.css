@@ -1629,6 +1629,11 @@ margin: auto;
   color: #000;
 }
 
+.paketDonusumBaslik{
+  display: flex;
+  flex: 0 1 auto;
+}
+
 .paketDonusumAciklama{
   display: flex;
   flex: 0 1 auto;
@@ -1637,6 +1642,7 @@ margin: auto;
   justify-content: center;
   width: 600px;
   color: #000;
+
 }
 
 .paketGridBaslik{
@@ -1704,7 +1710,7 @@ margin: auto;
 
 .gridPaketler{
   display: grid;
-  grid-template: auto auto / 1fr 1fr 1fr 1fr;
+  grid-template: 1fr auto / 1fr 1fr 1fr 1fr;
   grid-template-areas: 
   "donusum donusum donusum donusum"
   "e-ticaret sosyal-medya seo ads";
@@ -1715,6 +1721,7 @@ margin: auto;
 .gridDonusumPaketItem{
   display: flex;
   flex: 0 1 auto;
+  flex-direction: column;
   text-align: center;
   background-image: linear-gradient(#FFF 85%, #173e52 85%);
   padding: 0rem 0rem 0rem 0rem;
@@ -1724,14 +1731,16 @@ margin: auto;
 
 .donusumCard{
   display: flex;
-  flex-direction: column;
   flex: 0 1 auto;
-  position: absolute;
-  z-index: 1;
+  flex-direction: column;
+
   width: 100%;
+  z-index: 10;
   align-items: center;
-  justify-content: start;
-  padding: 0rem 0rem 0rem 0rem;
+
+  padding: 0rem;
+  margin: 0rem;
+  position: absolute;
 }
 
 .othersCard{
@@ -1748,22 +1757,24 @@ margin: auto;
 .alignEnd{
   display: flex;
   flex: 0 1 auto;
-  align-items: flex-start;
+  flex-direction: row;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
 .donusumSol{
   display: flex;
-  flex: 0 1 30%;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex: 0 1 38%;
+
 }
 
 .donusumSag{
   display: flex;
-  flex: 0 1 30%;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex: 0 1 auto;
+  flex-basis:  38%;
+
+
 }
 
 .gridPaketItem{
