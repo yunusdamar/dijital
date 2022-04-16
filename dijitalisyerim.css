@@ -1709,18 +1709,17 @@ margin: auto;
   "donusum donusum donusum donusum"
   "e-ticaret sosyal-medya seo ads";
   grid-gap: 0rem 1rem;
-  background: linear-gradient(#173e52 75%, #FFF);
+  background: linear-gradient(#173e52 85%, #FFF);
 }
 
 .gridDonusumPaketItem{
   display: flex;
   flex: 0 1 auto;
-  flex-direction: column;
   text-align: center;
-  background-color: rgba(var(--bs-light-rgb));
+  background-image: linear-gradient(#FFF 85%, #173e52 85%);
   padding: 0rem 0rem 0rem 0rem;
   margin: 0rem 0rem 0rem 0rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .donusumCard{
@@ -1731,8 +1730,8 @@ margin: auto;
   z-index: 1;
   width: 100%;
   align-items: center;
-  height: 500px;
-  overflow: hidden;
+  justify-content: start;
+  padding: 0rem 0rem 0rem 0rem;
 }
 
 .othersCard{
@@ -1749,8 +1748,22 @@ margin: auto;
 .alignEnd{
   display: flex;
   flex: 0 1 auto;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.donusumSol{
+  display: flex;
+  flex: 0 1 30%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.donusumSag{
+  display: flex;
+  flex: 0 1 30%;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .gridPaketItem{
