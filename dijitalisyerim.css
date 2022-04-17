@@ -1908,6 +1908,7 @@ flex: 0 1 100%;
 
  .dijitalDonusum{
   width: 100%;
+  height: 850px;
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(#FFF 73%, #173e52 73%);
@@ -2149,9 +2150,7 @@ flex: 0 1 100%;
     flex: 0 1 0%;
     visibility: hidden;
   }
-  .paketDonusumAciklama2{
-    width: 600px;
-  }
+
   
 
 
@@ -2290,10 +2289,23 @@ flex: 0 1 100%;
 .gridDonusumPaketItem{
   height: 750px;
 }
-
-.paketDonusumAciklama{
+.paketDonusumBaslik2{
   width: 100%;
   margin: 0rem 1rem 0rem 1rem;
+}
+.paketDonusumAciklama2{
+  width: 400px;
+  margin: 0rem 1rem 0rem 1rem;
+}
+.dijitalDonusum{
+  height: 700px;
+  background-image: linear-gradient(#FFF 75%, #173e52 75%);
+}
+.gridTop{
+  height: 700px;
+}
+.absoluteDonusum{
+  height: 700px;
 }
 .donusumSol{
   display: flex;
@@ -2346,12 +2358,17 @@ flex: 0 1 100%;
   width: 250px;
   margin: 0rem 1rem 0rem 1rem;
 }
+.dijitalDonusum{
+  height: 1100px;
+  background-image: linear-gradient(#FFF 80%, #173e52 80%);
+}
 .gridTop{
-  height: 1150px;
+  height: 1100px;
 }
 .absoluteDonusum{
-  height: 1050px;
+  height: 1100px;
 }
+
 
 }
 
@@ -2373,14 +2390,18 @@ flex: 0 1 100%;
   margin: 0rem 1rem 0rem 1rem;
 }
  .paketDonusumAciklama2{
-  width: 300px;
+  width: 400px;
   margin: 0rem 1rem 0rem 1rem;
 }
+.dijitalDonusum{
+  height: 900px;
+  background-image: linear-gradient(#FFF 75%, #173e52 75%);
+}
 .gridTop{
-  height: 1050px;
+  height: 900px;
 }
 .absoluteDonusum{
-  height: 1000px;
+  height: 900px;
 }
 }
 
@@ -2406,14 +2427,18 @@ flex: 0 1 100%;
     margin: 0rem 1rem 0rem 1rem;
   }
    .paketDonusumAciklama2{
-    width: 450px;
+    width: 550px;
     margin: 0rem 1rem 0rem 1rem;
   }
+  .dijitalDonusum{
+    height: 750px;
+    background-image: linear-gradient(#FFF 75%, #173e52 75%);
+  }
   .gridTop{
-    height: 850px;
+    height: 750px;
   }
   .absoluteDonusum{
-    height: 850px;
+    height: 780px;
   }
  }
 
@@ -2430,6 +2455,16 @@ flex: 0 1 100%;
   width: 700px;
   margin: 0rem 1rem 0rem 1rem;
 }
+.dijitalDonusum{
+  height: 750px;
+  background-image: linear-gradient(#FFF 73%, #173e52 73%);
+}
+.gridTop{
+  height: 750px;
+}
+.absoluteDonusum{
+  height: 780px;
+}
 
  }
 
@@ -2443,6 +2478,15 @@ flex: 0 1 100%;
  .gridDonusumPaketItem{
    height: 650px;
  }
+ .dijitalDonusum{
+  height: 700px;
+}
+.absoluteDonusum{
+  height: 700px;
+}
+.alignEnd2{
+  height: 700px;
+}
  }
 
 
@@ -2455,6 +2499,19 @@ flex: 0 1 100%;
  .gridDonusumPaketItem{
    height: 650px;
  }
+ .paketDonusumAciklama2{
+  width: 550px;
+  margin: 0rem 1rem 0rem 1rem;
+}
+.dijitalDonusum{
+  height: 750px;
+}
+.absoluteDonusum{
+  height: 750px;
+}
+.alignEnd2{
+  height: 750px;
+}
  }
 
 @media (min-width: 1600px) {
@@ -2496,6 +2553,15 @@ flex: 0 1 100%;
  .gridDonusumPaketItem{
    height: 650px;
  }
+ .dijitalDonusum{
+  height: 850px;
+}
+.absoluteDonusum{
+  height: 850px;
+}
+.alignEnd2{
+  height: 850px;
+}
  }
 
 
