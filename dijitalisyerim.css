@@ -1597,7 +1597,9 @@ margin: auto;
   "gridSlogan gridSlogan"
   "cadde musteri";
   grid-gap: 1rem;
-  margin: 1rem;
+  margin: 0rem;
+  padding: 0rem 1rem 1rem 1rem;
+  background: linear-gradient(180deg,#FFF 5%, #173e52 35%, #173e52 65%, #FFF 95%);
 }
 .mainGridItem{
   display: flex;
@@ -1890,7 +1892,13 @@ flex: 0 1 100%;
   "Segoe UI Symbol";
 }
 
-
+.dijitalResim{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
 
 .absoluteDonusum{
   position: absolute;
@@ -2081,7 +2089,6 @@ flex: 0 1 100%;
     height: 750px;
   }
   .gridTop{
-
     height: 850px;
 }
   .sliderMainRight{
@@ -2448,23 +2455,29 @@ flex: 0 1 100%;
    overflow: hidden;
    height: 50%;
  }
+ .paketDonusumAciklama2{
+  width: 475px;
+  margin: 0rem 1rem 0rem 1rem;
+}
  .gridDonusumPaketItem{
-   height: 700px;
+   height: 550px;
  }
  .paketDonusumBaslik2{
   width: 700px;
   margin: 0rem 1rem 0rem 1rem;
 }
 .dijitalDonusum{
-  height: 750px;
+
+  height: 550px;
   background-image: linear-gradient(#FFF 73%, #173e52 73%);
 }
 .gridTop{
-  height: 750px;
+  height: 550px;
 }
 .absoluteDonusum{
-  height: 780px;
+  height: 550px;
 }
+
 
  }
 
@@ -2479,15 +2492,15 @@ flex: 0 1 100%;
    height: 650px;
  }
  .dijitalDonusum{
-  height: 700px;
+  height: 540px;
 }
 .absoluteDonusum{
-  height: 700px;
+  height: 540px;
 }
 .alignEnd2{
-  height: 700px;
+  height: 540px;
 }
- }
+}
 
 
 
@@ -2504,13 +2517,13 @@ flex: 0 1 100%;
   margin: 0rem 1rem 0rem 1rem;
 }
 .dijitalDonusum{
-  height: 750px;
+  height: 550px;
 }
 .absoluteDonusum{
-  height: 750px;
+  height: 550px;
 }
 .alignEnd2{
-  height: 750px;
+  height: 550px;
 }
  }
 
@@ -2532,6 +2545,15 @@ flex: 0 1 100%;
  .gridDonusumPaketItem{
    height: 650px;
  }
+ .dijitalDonusum{
+  height: 675px;
+}
+.absoluteDonusum{
+  height: 675px;
+}
+.alignEnd2{
+  height: 675px;
+}
  }
  
 
