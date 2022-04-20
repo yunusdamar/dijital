@@ -808,28 +808,82 @@ body {
 
 /*# Referance filter #*/
 .filterDiv {
-  color: #ffffff;
-  width: 49%;
-  line-height: 100px;
-  text-align: center;
-  margin: 5px;
+
   display: none;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  transition: transform 0.2s;
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
 }
 
 .filterDiv:hover {
-  transform: scale(0.95);
-  -webkit-transform: scale(0.95);
-  -moz-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  -o-transform: scale(0.95);
+  transform: scale(0.96);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  -o-transform: scale(0.96);
   background-color: rgba(var(--bs-dark-rgb)) !important;
 }
+
+.refBox{
+  position: relative;
+  width: 49.75%;
+}
+
+.refImage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.refHover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.refBox:hover .refImage {
+  opacity: 0.3;
+}
+
+.refBox:hover .refHover {
+  opacity: 1;
+}
+
+.refText {
+  background-color: #173e52;
+  color: white;
+  top: 50%;
+  font-size: 30px;
+  padding: 16px 32px;
+}
+
+
+/*# Referances & Partners #*/
+#byInciPastanesi:hover{
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+
+
+
 
 .show {
   display: inline-block;
