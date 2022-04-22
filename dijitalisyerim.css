@@ -1823,7 +1823,7 @@ margin: auto;
   flex: 0 1 auto;
   font-size: 2.5rem;
   font-weight: 300;
-  padding: 0.7rem;
+  padding: 0.1rem;
   margin: auto;
 }
 
@@ -2590,9 +2590,7 @@ flex: 0 1 100%;
 .absoluteDonusum{
   height: 550px;
 }
-
-
- }
+}
 
 
 
