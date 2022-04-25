@@ -2118,7 +2118,7 @@ flex: 0 1 100%;
 .bannerText{
   display: flex;
   flex: 0 1 auto;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300;
 }
 .bannerText2{
