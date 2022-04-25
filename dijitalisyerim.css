@@ -566,6 +566,8 @@ button:not(:disabled),
 
 body {
   background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  height: 100%;
+  width: 100%;
 }
 
 /*
@@ -1816,8 +1818,6 @@ margin: auto;
   margin: 0 ;
 }
 
-
-
 .MainGridMidAciklama{
   display: flex;
   flex: 0 1 auto;
@@ -1826,8 +1826,6 @@ margin: auto;
   padding: 0.1rem;
   margin: auto;
 }
-
-
 
 .magaza{
   grid-area: magaza;
@@ -2110,6 +2108,55 @@ flex: 0 1 100%;
   margin: 0rem;
 }
 
+.banner{
+  display: flex;
+  flex: 0 1 auto;
+  height: 985px;
+  width:100%;
+}
+
+.bannerText{
+  display: flex;
+  flex: 0 1 auto;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.bannerText2{
+  display: flex;
+  flex: 0 1 auto;
+  font-size: 2.3rem;
+  font-weight: 300;
+  flex-wrap: no-wrap;
+}
+
+.bannerSL {
+  display: block;
+  background: #CFF;
+  height:100%;
+  width:100%;
+  box-sizing:border-box;
+}
+
+.bannerContent{
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: center;
+  margin: 5%;
+  width: auto;
+}
+.bannerContentLogo{
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: center;
+  width: 800px;
+  margin: 5%;
+
+}
+
+.bannerPic{
+  height: 450px;
+  width: auto;
+}
 
 
 
@@ -2117,6 +2164,9 @@ flex: 0 1 100%;
   .sliderAltSloganMain{
    font-size: 3rem;
  }
+ .banner{
+  height: 985px;
+}
 
  .blog{
    padding: 1rem;
@@ -2560,6 +2610,9 @@ flex: 0 1 100%;
   .absoluteDonusum{
     height: 780px;
   }
+  .banner{
+    height: 830px;
+  }
  }
 
 
@@ -2589,6 +2642,9 @@ flex: 0 1 100%;
 }
 .absoluteDonusum{
   height: 550px;
+}
+.banner{
+  height: 830px;
 }
 }
 
@@ -2643,7 +2699,10 @@ flex: 0 1 100%;
 .alignEnd2{
   height: 550px;
 }
- }
+.banner{
+  height: 900px;
+}
+}
 
 @media (min-width: 1600px) {
   .sliderMainRight{
@@ -2652,6 +2711,9 @@ flex: 0 1 100%;
     flex: 0 1 35%;
     padding: 0rem 0rem 0rem 0rem;
     overflow: hidden;
+  }
+  .banner{
+    height: 950px;
   }
   .slider{
     height: 600px;
