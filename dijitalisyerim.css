@@ -2130,7 +2130,7 @@ flex: 0 1 100%;
 }
 
 .bannerSL {
-  display: block;
+  display: flex;
   background: #CFF;
   height:100%;
   width:100%;
@@ -2148,7 +2148,7 @@ flex: 0 1 100%;
   display: flex;
   flex: 0 1 auto;
   justify-content: center;
-  width: 800px;
+  width: 700px;
   margin: 5%;
 
 }
@@ -2494,12 +2494,6 @@ flex: 0 1 100%;
   opacity: 1;
 }
 }
-
-
-
-
-
-
 
 
 
