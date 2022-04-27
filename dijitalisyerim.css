@@ -2148,13 +2148,16 @@ flex: 0 1 100%;
   display: flex;
   flex: 0 1 auto;
   justify-content: center;
-  width: 700px;
+  height: auto;
   margin: 5%;
-
 }
 
 .bannerPic{
-  height: 450px;
+  height: auto;
+  width: auto;
+}
+.bannerPic2{
+  height: 550px;
   width: auto;
 }
 
@@ -2293,6 +2296,21 @@ flex: 0 1 100%;
     position: relative;
     right: 20px;
   }
+  .bannerPic{
+    visibility: hidden;
+    position: absolute;
+  }
+  .bannerPic2{
+    visibility: hidden;
+    position: absolute;
+  }
+  .bannerContentLogo{
+    margin: 0rem;
+    padding: 3% 1rem;
+  }
+   .bannerText{
+    font-size: 3rem;
+   }
   .blogResimContainer{
     flex-direction: column;
   }
