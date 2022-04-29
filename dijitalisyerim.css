@@ -598,6 +598,10 @@ body {
   text-decoration: none;
 }
 
+.lead{
+  line-height: 3rem;
+}
+
 
 /*
  * Extra utilities
@@ -640,11 +644,19 @@ body {
 
 .fiyatKart {
   padding-top: 2rem !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
   padding-bottom: 1rem !important;
-  text-align: center !important;
+  text-align: left !important;
   margin: 0rem 0.5rem 0rem 0.5rem !important;
+}
+
+.fiyatKartCenter {
+  padding-top: 2rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: 1rem !important;
+  text-align: left !important;
 }
 
 .fiyatKart:hover {
@@ -2144,6 +2156,14 @@ flex: 0 1 100%;
   margin: 5%;
   width: auto;
 }
+
+.bannerContentSec{
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: center;
+  margin: 5%;
+  width: auto;
+}
 .bannerContentLogo{
   display: flex;
   flex: 0 1 auto;
@@ -2514,6 +2534,36 @@ flex: 0 1 100%;
 }
 
 
+@media (max-width: 425px) {
+  .banner{
+    height: 620px;
+  }
+  .bannerContentLogo{
+    height: 620px;
+  }
+  .bannerSL{
+    height: 620px;
+  }
+  .bannerContent{
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner{
+    height: 620px;
+  }
+  .bannerContentLogo{
+    height: 620px;
+  }
+  .bannerSL{
+    height: 620px;
+  }
+  .bannerContent{
+    visibility: hidden;
+  }
+}
+
 
 
 
@@ -2777,10 +2827,6 @@ flex: 0 1 100%;
   height: 850px;
 }
  }
-
-
-
-
 
 
 
