@@ -289,6 +289,13 @@ button:not(:disabled),
   margin: 20px 10px;
 }
 
+.card-footer {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+
+
 .card-body {
   transition: color 0.15s ease-in-out, background-image 1s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2187,6 +2194,8 @@ width: auto;
   height: 550px;
   width: auto;
 }
+
+
 
 
 
