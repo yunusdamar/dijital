@@ -2134,6 +2134,7 @@ flex: 0 1 100%;
   flex: 0 1 auto;
   font-size: 4rem;
   font-weight: 300;
+  flex-wrap: no-wrap;
 }
 .bannerText2{
   display: flex;
@@ -2155,14 +2156,13 @@ flex: 0 1 100%;
   display: flex;
   flex: 0 1 auto;
   justify-content: center;
-  margin: 3%;
   width: auto;
-
 }
 
 .bannerContentSec{
   display: flex;
   flex: 0 1 auto;
+  flex-direction: column;
   justify-content: center;
   margin: 5%;
   width: auto;
@@ -2170,6 +2170,7 @@ flex: 0 1 100%;
 .bannerContentLogo{
   display: flex;
   flex: 0 1 auto;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 50%;
@@ -2177,6 +2178,8 @@ flex: 0 1 100%;
 }
 
 .bannerPic{
+  display: flex;
+  flex: 0 1 auto;
 height: 700px;
 width: auto;
 }
@@ -2310,7 +2313,7 @@ width: auto;
   height: 100%;
   font-size: 1rem;
   padding: 0.2rem 0rem 0.2rem 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 }
 
@@ -2538,33 +2541,29 @@ width: auto;
 }
 
 
-@media (max-width: 425px) {
-  .banner{
-    height: 620px;
-  }
-  .bannerContentLogo{
-    height: 620px;
-  }
-  .bannerSL{
-    height: 620px;
-  }
-  .bannerContent{
-    visibility: hidden;
-  }
-}
+
 
 @media (max-width: 425px) {
   .banner{
-    height: 620px;
+    height: 575px;
+  }
+  .bannerText{
+font-size: 2rem;
   }
   .bannerContentLogo{
-    height: 620px;
+    height: auto;
   }
   .bannerSL{
-    height: 620px;
+    height: 575px;
   }
   .bannerContent{
     visibility: hidden;
+  }
+  .bannerPic{
+    height: 200px;
+  }
+  .bannerLogo{
+    width: 100%;
   }
 }
 
