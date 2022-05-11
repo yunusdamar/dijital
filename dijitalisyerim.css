@@ -2195,8 +2195,22 @@ width: auto;
   width: auto;
 }
 
+.headBox{
+  text-align: center;
+  text-justify: center;
+  padding: 1rem;
+}
 
-
+.headTitle{
+  font-size: 4rem;
+  font-weight: 300;
+  color: rgba(var(--bs-dark-rgb));
+}
+@media (max-width: 425px) {
+.headTitle{
+  font-size: 2.5rem;
+}
+}
 
 
 @media (max-width: 1600px) {
