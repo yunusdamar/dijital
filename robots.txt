@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://dijitalisyerim.com.tr/sitemap.xml
+Sitemap: http://dijitalisyerim.com.tr/sitemap.xml
+Sitemap: https://www.dijitalisyerim.com.tr/sitemap.xml
+Sitemap: http://www.dijitalisyerim.com.tr/sitemap.xml
