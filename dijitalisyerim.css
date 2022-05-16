@@ -678,8 +678,27 @@ body {
 }
 
 .paketFiyat {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 2.5rem;
+  cursor: pointer;
+  color: rgba(var(--bs-white-rgb)) !important;
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.paketFiyat:hover {
+  font-weight: 400;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: rgba(var(--bs-black-rgb)) !important;
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.paketFiyat2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: rgba(var(--bs-dark-rgb)) !important;
 }
 
 .paketFiyatEski {
