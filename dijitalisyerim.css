@@ -690,7 +690,7 @@ body {
   font-weight: 400;
   font-size: 2.5rem;
   cursor: pointer;
-  color: rgba(var(--bs-black-rgb)) !important;
+  color: #bbb !important;
   display: flex;
   flex: 0 1 auto;
 }
@@ -1173,7 +1173,6 @@ section {
   font-weight: 900;
   color: rgba(var(--bs-dark-rgb));
   padding: 2rem 1rem 1rem 2rem;
-  line-height: 2rem !important;
 }
 
 .blogh3{
@@ -1183,7 +1182,6 @@ section {
   font-weight: 900;
   color: rgba(var(--bs-gray-dark));
   padding: 1.5rem 1rem 0rem 3rem;
-  line-height: 2rem !important;
 }
 
 .blogh4{
@@ -2187,10 +2185,10 @@ flex: 0 1 100%;
 
 .bannerContentSec{
   display: flex;
-  flex: 0 1 auto;
+  flex: 0 1 50%;
   flex-direction: column;
   justify-content: center;
-  margin: 5%;
+  margin: 2%;
   width: auto;
 }
 .bannerContentLogo{
@@ -2229,6 +2227,20 @@ width: auto;
 .hidden{
   display: none;
 }
+
+
+@media (min-width: 991px) {
+  .mobile{
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .desktop{
+    display: none;
+  }
+}
+
 
 @media (max-width: 425px) {
 .headTitle{

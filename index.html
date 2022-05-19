@@ -47,6 +47,25 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NZS9XW6');</script>
     <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1295888934153691');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1295888934153691&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-226505229-2">
     </script>
@@ -162,9 +181,13 @@
                             alt="Sosyal Medya yönetimi nedir">
                     </div>
                     <div class="bannerContentSec justify-content-center">
+                        <img class="img-fluid desktop" src="img/banner.png" alt="Dijital İşyerim Banner">
+                        <!--
                         <h2 class="bannerText2 align-self-start my-3">Mağazanız işlek caddeye taşınıyor</h2>
                         <h2 class="bannerText2 align-self-start my-3">Ürünlerinize vitrin hazırlanıyor</h2>
                         <h2 class="bannerText2 align-self-start my-3">Müşterileriniz sizi bekliyor</h2>
+                        -->
+                        <img class="mobile" height="700px" src="img/banner-mb.png" alt="Dijital İşyerim Banner">
                     </div>
                 </div>
             </div>
@@ -427,6 +450,9 @@
                     <ul class="list-unstyled text-small my-3">
                         <li><a class="link-secondary" title="Dijital İşyerim Akademi" href="blog.html">Dijital
                                 Akademi</a></li>
+                        <li><a class="link-secondary" title="Dijital İşyerim Gizlilik Sözleşmesi"
+                                href="gizlilik.html">Gizlilik
+                                Sözleşmesi</a></li>
                         <li><a class="link-secondary" title="Dijital İşyerim İletişim" href="iletisim.html">İletişim</a>
                         </li>
                         <ul class="socialMedia">
