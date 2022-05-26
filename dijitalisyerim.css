@@ -607,7 +607,12 @@ body {
 }
 
 .lead{
-  line-height: 3rem;
+  line-height: 2rem;
+}
+
+.dijitalA{
+  color: #173e52;
+  font-weight: 500;
 }
 
 
@@ -1348,9 +1353,6 @@ section {
 }
 
 .biz{
-  display: flex;
-  flex: 0 1 auto;
-  flex-direction: column;
   margin: 1rem 0rem 1rem 0rem;
   font-size: 1.4rem;
   font-weight: 300;

@@ -146,27 +146,69 @@
 
    </url>
 
-    <url>
+   <url>
 
-      <loc>https://www.dijitalisyerim.com.tr/teklif.html</loc>
+      <loc>https://www.dijitalisyerim.com.tr/blog/e-ticaret-nedir.html</loc>
 
       <lastmod>2022-03-30</lastmod>
 
       <changefreq>monthly</changefreq>
 
-      <priority>0.5</priority>
+      <priority>0.8</priority>
 
    </url>
 
-   <url>
+      <url>
 
-      <loc>https://www.dijitalisyerim.com.tr/kariyer.html</loc>
+      <loc>https://www.dijitalisyerim.com.tr/blog/sosyal-medya-yonetimi-nedir.html</loc>
 
       <lastmod>2022-03-30</lastmod>
 
       <changefreq>monthly</changefreq>
 
-      <priority>0.5</priority>
+      <priority>0.8</priority>
+
+   </url>
+
+      </url>
+
+      <url>
+
+      <loc>https://www.dijitalisyerim.com.tr/blog/seo-nedir.html</loc>
+
+      <lastmod>2022-03-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+      </url>
+
+      <url>
+
+      <loc>https://www.dijitalisyerim.com.tr/blog/google-ads-nedir.html</loc>
+
+      <lastmod>2022-03-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+      </url>
+
+      <url>
+
+      <loc>https://www.dijitalisyerim.com.tr/blog/website-nedir.html</loc>
+
+      <lastmod>2022-03-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
 
    </url>
 
