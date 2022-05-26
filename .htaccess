@@ -1,8 +1,10 @@
 
 
 ErrorDocument 404 https://www.dijitalisyerim.com.tr/
-Redirect 301 https://dijitalisyerim.com.tr/index.html
-Redirect 301 https://www.dijitalisyerim.com.tr/ https://dijitalisyerim.com.tr/
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.dijitalisyerim.com.tr [NC]
+RewriteRule ^(.*)$ https://dijitalisyerim.com.tr/$1 [L,R=301,NC]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php72” package as the default “PHP” programming language.
