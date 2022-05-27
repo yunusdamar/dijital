@@ -624,6 +624,11 @@ body {
   flex: 1;
 }
 
+.form-check-input:checked{
+  background-color: #173e52;
+  border-color: #173e52;
+}
+
 @media (min-width: 900px) {
   .d-md-flex > * {
     flex: 1;
