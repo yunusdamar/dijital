@@ -161,7 +161,7 @@
                                 <div class="col-md-6">
                                     <div class="md-form my-2">
                                         <input type="text" id="name" name="name" placeholder="İsim soyisim"
-                                            class="form-control">
+                                            required="required" class="form-control">
                                     </div>
                                 </div>
                                 <!--Grid column-->
@@ -170,7 +170,7 @@
                                 <div class="col-md-6">
                                     <div class="md-form my-2">
                                         <input type="text" id="email" name="email" placeholder="E-mail adresiniz"
-                                            class="form-control">
+                                            required="required" class="form-control">
                                     </div>
                                 </div>
                                 <!--Grid column-->
@@ -182,8 +182,19 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form my-2">
+                                        <input type="phone" id="phone" name="phone" placeholder="Telefon numaranız"
+                                            required="required" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form my-2">
                                         <input type="text" id="subject" name="subject" placeholder="Mesajınızın başlığı"
-                                            class="form-control">
+                                            required="required" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -197,20 +208,15 @@
 
                                     <div class="md-form my-2">
                                         <textarea type="text" id="message" name="message" rows="2"
-                                            placeholder="Mesajınız" class="form-control md-textarea"></textarea>
+                                            placeholder="Mesajınız" class="form-control md-textarea"
+                                            required="required"></textarea>
                                     </div>
 
                                 </div>
                             </div>
                             <!--Grid row-->
-                            <?php echo "$gittiMesaji"; ?>
+                            <button type="submit" class="btn my-2 btn-outline-secondary">Bilgilerimi Gönder</button>
                         </form>
-
-                        <div class="text-left text-md-left">
-                            <a class="btn btn-outline-dark submit"
-                                onclick="document.getElementById('contact-form').submit();">Gönder</a>
-                        </div>
-                        <div class="status"></div>
                     </div>
                     <!--Grid column-->
 
@@ -340,10 +346,10 @@
         </footer>
     </main>
 
-    <a href="https://api.whatsapp.com/send?phone=8508501515&text=Merhabalar, Dijital İşyerim canlı destek hattına hoşgeldiniz."
-        class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=8508501515&text=Merhabalar, " class="float" target="_blank">
         <i class="fa-brands fa-whatsapp my-float"></i>
     </a>
+
 </body>
 
 </html>

@@ -292,39 +292,46 @@
         <section class="container-fluid">
             <div class="container-xl">
                 <div class="row flex-lg-row-reverse align-items-center justify-content-between g-5 py-5 ">
-                    <div class="col-xl-5 bg-light px-4 py-5">
-                        <form class="d-flex">
-                            <div class="column">
-                                <h4 class="my-3 display-3 text-dark">Sizi arayalım</h4>
-                                <div class="form-group my-2">
-                                    <label for="exampleInputEmail1">İletişim Bilgileriniz</label>
-                                    <input type="text" class="form-control" id="exampleInputName1"
-                                        aria-describedby="nameHelp" placeholder="Adınız Soyadınız / Firma Adı">
-                                </div>
-                                <div class="form-group my-2">
-                                    <label for="exampleInputEmail1">İletişim Numaranız</label>
-                                    <input type="phone" class="form-control" id="exampleInputSoyad1"
-                                        aria-describedby="soyadHelp" placeholder="Cep Telefonu">
-                                </div>
-                                <div class="form-group  my-2">
-                                    <label for="exampleInputEmail1">Email adresiniz</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="E-mail">
-                                </div>
-                                <div class="form-group my-2">
-                                    <label for="paketsecimi">Bilgi almak istediğiniz Dijital İşyerim Paketi</label>
-                                    <select class="form-control" id="paketsecimi">
-                                        <option>Google Ads Reklam Yönetimi Paketi</option>
-                                    </select>
-                                </div>
-                                <small id="emailHelp" class="form-text text-muted">İletişim bilgileriniz hiçbir koşulda
-                                    başka kurum ve kuruluşlarla paylaşılmayacaktır.</small>
-                                <div class="form-check my-2">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Onaylıyorum</label>
-                                </div>
-                                <button type="submit" class="btn my-2 btn-outline-secondary">Bilgilerimi Gönder</button>
+                    <div class="col-xl-5 bg-light px-4">
+                        <form class="blogForm defaultFont" id="information-form" name="information-form"
+                            action="https://formspree.io/f/xoqrrpzd" method="POST">
+                            <h4 class="my-3 display-3 text-dark">Sizi arayalım</h4>
+                            <div class="form-group my-2">
+                                <label for="adSoyad">İletişim Bilgileriniz</label>
+                                <input type="text" class="form-control" id="adSoyad" name="adSoyad" required="required"
+                                    aria-describedby="nameHelp" placeholder="Adınız Soyadınız / Firma Adı">
                             </div>
+                            <div class="form-group my-2">
+                                <label for="cepNo">İletişim Numaranız</label>
+                                <input type="phone" class="form-control" id="cepNo" name="cepNo" required="required"
+                                    aria-describedby="soyadHelp" placeholder="Cep Telefonu">
+                            </div>
+                            <div class="form-group my-2">
+                                <label for="eMail">Email adresiniz</label>
+                                <input type="email" class="form-control" id="eMail" name="eMail" required="required"
+                                    aria-describedby="emailHelp" placeholder="E-mail">
+                            </div>
+                            <div class="form-group my-2">
+                                <label for="paketsecimi">Bilgi almak istediğiniz Dijital İşyerim Hizmeti</label>
+                                <select class="form-control" id="paketsecimi" name="paketsecimi">
+                                    <option>Google Ads Hizmeti</option>
+                                    <option>Dijital Dönüşüm Hizmetleri</option>
+                                    <option>Website Tasarım Hizmeti</option>
+                                    <option>E-Ticaret Sistemleri</option>
+                                    <option>E-Ticaret Danışmanlığı</option>
+                                    <option>Sosyal Medya Yönetimi Hizmeti</option>
+                                    <option>Seo Hizmeti</option>
+                                    <option>Fotoğraf ve Video Hizmetleri</option>
+                                    <option>Danışmanlık Hizmetleri</option>
+                                </select>
+                            </div>
+                            <small id="emailHelp" class="form-text text-muted">İletişim bilgileriniz hiçbir koşulda
+                                başka kurum ve kuruluşlarla paylaşılmayacaktır.</small>
+                            <div class="form-check my-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" required="required">
+                                <label class="form-check-label" for="exampleCheck1">Onaylıyorum</label>
+                            </div>
+                            <button type="submit" class="btn my-2 btn-outline-secondary">Bilgilerimi Gönder</button>
                         </form>
                     </div>
                     <div class="col-xl-6">
@@ -425,8 +432,7 @@
     </footer>
 
 
-    <a href="https://api.whatsapp.com/send?phone=8508501515&text=Merhabalar, Dijital İşyerim canlı destek hattına hoşgeldiniz."
-        class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=8508501515&text=Merhabalar, " class="float" target="_blank">
         <i class="fa-brands fa-whatsapp my-float"></i>
     </a>
 </body>

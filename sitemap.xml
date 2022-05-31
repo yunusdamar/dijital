@@ -6,7 +6,7 @@
 
       <loc>https://dijitalisyerim.com.tr/</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -14,11 +14,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/index.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -26,11 +26,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/hakkimizda.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -38,11 +38,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/referanslar.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -50,11 +50,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/blog.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>daily</changefreq>
 
@@ -66,7 +66,7 @@
 
       <loc>https://dijitalisyerim.com.tr/iletisim.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -74,11 +74,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/dijital-donusum.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>daily</changefreq>
 
@@ -86,11 +86,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/website.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>daily</changefreq>
 
@@ -98,11 +98,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/e-ticaret.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>daily</changefreq>
 
@@ -110,11 +110,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/sosyal-medya.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-06-01</lastmod>
 
       <changefreq>daily</changefreq>
 
@@ -126,7 +126,7 @@
 
       <loc>https://dijitalisyerim.com.tr/seo.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>daily</changefreq>
 
@@ -134,11 +134,11 @@
 
    </url>
 
-    <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/ads.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>daily</changefreq>
 
@@ -150,7 +150,7 @@
 
       <loc>https://dijitalisyerim.com.tr/blog/e-ticaret-nedir.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -158,11 +158,11 @@
 
    </url>
 
-      <url>
+   <url>
 
       <loc>https://dijitalisyerim.com.tr/blog/sosyal-medya-yonetimi-nedir.html</loc>
 
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -170,13 +170,11 @@
 
    </url>
 
-      </url>
+   <url>
 
-      <url>
+      <loc>https://dijitalisyerim.com.tr/blog/seo-nedir.html</loc>
 
-      <loc>https://www.dijitalisyerim.com.tr/blog/seo-nedir.html</loc>
-
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -184,13 +182,11 @@
 
    </url>
 
-      </url>
+   <url>
 
-      <url>
+      <loc>https://dijitalisyerim.com.tr/blog/google-ads-nedir.html</loc>
 
-      <loc>https://www.dijitalisyerim.com.tr/blog/google-ads-nedir.html</loc>
-
-      <lastmod>2022-03-30</lastmod>
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -198,13 +194,59 @@
 
    </url>
 
-      </url>
+   <url>
 
-      <url>
+      <loc>https://dijitalisyerim.com.tr/blog/website-nedir.html</loc>
 
-      <loc>https://www.dijitalisyerim.com.tr/blog/website-nedir.html</loc>
+      <lastmod>2022-05-31</lastmod>
 
-      <lastmod>2022-03-30</lastmod>
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://dijitalisyerim.com.tr/blog/sponsorlu-reklam-nedir.html</loc>
+
+      <lastmod>2022-05-31</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://dijitalisyerim.com.tr/blog/b2b-nedir.html</loc>
+
+      <lastmod>2022-05-31</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://dijitalisyerim.com.tr/blog/b2c-nedir.html</loc>
+
+      <lastmod>2022-05-31</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://dijitalisyerim.com.tr/blog/e-ticaretin-olumlu-ve-olumsuz-yonleri.html</loc>
+
+      <lastmod>2022-05-31</lastmod>
 
       <changefreq>monthly</changefreq>
 

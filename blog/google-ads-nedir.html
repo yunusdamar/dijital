@@ -157,29 +157,31 @@
                     </p>
                     <div class="blogResimContainer justify-content-between">
                         <div class="blogResimSol">
-                            <img class="blogYaziResim" src="../img/google-ads-nedir.svg" alt="">
+                            <img class="blogYaziResim" src="../img/ads-nedir.svg" alt="">
                         </div>
                         <div class="blogResimSag bg-white">
-                            <form class="blogForm defaultFont">
+                            <form class="blogForm defaultFont" id="information-form" name="information-form"
+                                action="https://formspree.io/f/xoqrrpzd" method="POST">
                                 <h4 class="my-3 display-3 text-dark">Sizi arayalım</h4>
                                 <div class="form-group my-2">
-                                    <label for="exampleInputEmail1">İletişim Bilgileriniz</label>
-                                    <input type="text" class="form-control" id="exampleInputName1"
-                                        aria-describedby="nameHelp" placeholder="Adınız Soyadınız / Firma Adı">
+                                    <label for="adSoyad">İletişim Bilgileriniz</label>
+                                    <input type="text" class="form-control" id="adSoyad" name="adSoyad"
+                                        required="required" aria-describedby="nameHelp"
+                                        placeholder="Adınız Soyadınız / Firma Adı">
                                 </div>
                                 <div class="form-group my-2">
-                                    <label for="exampleInputEmail1">İletişim Numaranız</label>
-                                    <input type="phone" class="form-control" id="exampleInputSoyad1"
+                                    <label for="cepNo">İletişim Numaranız</label>
+                                    <input type="phone" class="form-control" id="cepNo" name="cepNo" required="required"
                                         aria-describedby="soyadHelp" placeholder="Cep Telefonu">
                                 </div>
-                                <div class="form-group  my-2">
-                                    <label for="exampleInputEmail1">Email adresiniz</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                <div class="form-group my-2">
+                                    <label for="eMail">Email adresiniz</label>
+                                    <input type="email" class="form-control" id="eMail" name="eMail" required="required"
                                         aria-describedby="emailHelp" placeholder="E-mail">
                                 </div>
                                 <div class="form-group my-2">
                                     <label for="paketsecimi">Bilgi almak istediğiniz Dijital İşyerim Hizmeti</label>
-                                    <select class="form-control" id="paketsecimi">
+                                    <select class="form-control" id="paketsecimi" name="paketsecimi">
                                         <option>Dijital Dönüşüm Hizmetleri</option>
                                         <option>Website Tasarım Hizmeti</option>
                                         <option>E-Ticaret Sistemleri</option>
@@ -194,7 +196,8 @@
                                 <small id="emailHelp" class="form-text text-muted">İletişim bilgileriniz hiçbir koşulda
                                     başka kurum ve kuruluşlarla paylaşılmayacaktır.</small>
                                 <div class="form-check my-2">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1"
+                                        required="required">
                                     <label class="form-check-label" for="exampleCheck1">Onaylıyorum</label>
                                 </div>
                                 <button type="submit" class="btn my-2 btn-outline-secondary">Bilgilerimi Gönder</button>
@@ -296,6 +299,22 @@
                                 <h4 class="blogNavitem">Sponsorlu Reklamlar nedir?</h4>
                             </a>
                         </li>
+                        <li>
+                            <a href="b2b-nedir.html" title="B2B Nedir?">
+                                <h4 class="blogNavitem">B2B nedir?</h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="b2c-nedir.html" title="B2C Nedir?">
+                                <h4 class="blogNavitem">B2C nedir?</h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="e-ticaretin-olumlu-ve-olumsuz-yonleri.html"
+                                title="E-Ticaretin olumlu ve olumsuz yönleri">
+                                <h4 class="blogNavitem">E-Ticaretin olumlu ve olumsuz yönleri</h4>
+                            </a>
+                        </li>
                 </div>
             </div>
 
@@ -374,8 +393,7 @@
             </footer>
         </main>
 
-        <a href="https://api.whatsapp.com/send?phone=8508501515&text=Merhabalar, Dijital İşyerim canlı destek hattına hoşgeldiniz."
-            class="float" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=8508501515&text=Merhabalar, " class="float" target="_blank">
             <i class="fa-brands fa-whatsapp my-float"></i>
         </a>
 </body>
