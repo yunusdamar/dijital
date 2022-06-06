@@ -1247,6 +1247,7 @@ section {
   font-weight: 500;
   padding-left: 0.5rem;
 }
+
 .blogMainLink:hover{
   font-weight: 600;
 }
@@ -2187,6 +2188,7 @@ flex: 0 1 100%;
   justify-content: center;
   width: 550px;
   color: #000;
+  
 }
 
 .paketGridLink2{
@@ -2835,7 +2837,7 @@ font-size: 2rem;
     height: 750px;
   }
   .absoluteDonusum{
-    height: 780px;
+    height: 730px;
   }
   .banner{
     height: 830px;
@@ -2868,7 +2870,7 @@ font-size: 2rem;
   height: 550px;
 }
 .absoluteDonusum{
-  height: 550px;
+  height: 530px;
 }
 .banner{
   height: 830px;
